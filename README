@@ -1,0 +1,10 @@
+TorchEASE: EASE em Torch.
+CuPyEASE: EASE em CuPy.
+
+goodbooksTestTorch: Inferencia no dataset goodbooks com Torch.
+goodbooksTestCuPy: Inferencia no dataset goodbook com CuPy.
+
+metrics: Metricas (incompleto)
+
+books.csv, ratings.csv = Parte necessária do dataset do goodbooks.
+completeData.csv = dataset tratado e criado quando é rodado um dos códigos de inferencia.
