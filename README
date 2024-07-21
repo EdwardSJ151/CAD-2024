@@ -1,10 +1,11 @@
-TorchEASE: EASE em Torch.
-CuPyEASE: EASE em CuPy.
+Tem dois datasets montados para testes: goodbooks e netflix
 
-goodbooksTestTorch: Inferencia no dataset goodbooks com Torch.
-goodbooksTestCuPy: Inferencia no dataset goodbook com CuPy.
+CuPyEASE.py: Modelo do EASE em CuPy
+TorchEASE.py: Modelo do EASE em Torch
 
-metrics: Metricas (incompleto)
+InferenceCuPy.py: Código para inferencia em CuPy (Implicito e Explicito) -> Usar explicito, implicito tá lá no caso de precisar, mas nn precisa
+InferenceTorch.py: Código para inferencia em Torch (Implicito e Explicito) -> Usar explicito, implicito tá lá no caso de precisar, mas nn precisa
 
-books.csv, ratings.csv = Parte necessária do dataset do goodbooks.
-completeData.csv = dataset tratado e criado quando é rodado um dos códigos de inferencia.
+metrics.py: Métricas para avaliar modelos (não é nosso foco, vou fazer um código para comparar duas matrizes dps)
+
+Vocês só precisam dos datasets de train/test já disponiveis para rodar, mas deixei os originais tmb no caso de vcs quiserem brincar. Sei que todo mundo usa windows ent deixei os mais pesados que o git não aceita em .7z (pesquisa online como abrir, é um tipo de zip)
