@@ -21,8 +21,8 @@ from metrics import hit_rate_k, calculate_ndcg
 
 # Carregando o dataset inteiro
 
-trainPath = './ML20Data/trainML.csv'
-testPath = './ML20Data/testML.csv'
+trainPath = 'CAD-2024\\goodbooksData\\trainBooks.csv'
+testPath = 'CAD-2024\\goodbooksData\\testBooks.csv'
 
 df = pd.read_csv(trainPath)
 df_test = pd.read_csv(testPath)
