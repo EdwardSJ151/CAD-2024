@@ -62,14 +62,19 @@ class TorchEASE:
     def fit(self):
         print("Building G Matrix")
         G = self.sparse.to_dense().t() @ self.sparse.to_dense()
+        print("G1")
         G += torch.eye(G.shape[0]) * self.reg
+        print("G2")
 
         P = G.inverse()
+        print("P1")
 
         print("Building B matrix")
         B = P / (-1 * P.diag())
+        print("B1")
         # Set diagonals to 0. TODO: Use .fill_diag_
         B = B + torch.eye(B.shape[0])
+        print("B2")
 
         # Predictions for user `_u` will be self.sparse.to_dense()[_u]@self.B
         self.B = B
