@@ -61,7 +61,7 @@ Data* load_csv(const char* path, int* num_rows, char* header) {
 
 int main() {
     printf("Begin");
-    const char* path = "/home/pressprexx/Code/Cooleg/CAD/CAD-2024/goodbooksData/trainBooks.csv";
+    const char* path = "/home/pressprexx/Code/Cooleg/CAD/CAD-2024/goodbooksData/trainBooksSmall.csv";
     int num_rows;
 
     printf("Start");
