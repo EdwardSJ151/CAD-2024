@@ -1,11 +1,5 @@
-Tem dois datasets montados para testes: goodbooks e netflix
+**CÓDIGOS PRINCIPAIS PARA AVALIAÇÃO**
 
-CuPyEASE.py: Modelo do EASE em CuPy
-TorchEASE.py: Modelo do EASE em Torch
-
-InferenceCuPy.py: Código para inferencia em CuPy (Implicito e Explicito) -> Usar explicito, implicito tá lá no caso de precisar, mas nn precisa
-InferenceTorch.py: Código para inferencia em Torch (Implicito e Explicito) -> Usar explicito, implicito tá lá no caso de precisar, mas nn precisa
-
-metrics.py: Métricas para avaliar modelos (não é nosso foco, vou fazer um código para comparar duas matrizes dps)
-
-Vocês só precisam dos datasets de train/test já disponiveis para rodar, mas deixei os originais tmb no caso de vcs quiserem brincar. Sei que todo mundo usa windows ent deixei os mais pesados que o git não aceita em .7z (pesquisa online como abrir, é um tipo de zip)
+Sequencial: TorchEASE.c
+Paralelo em CUDA: CUDA.ipynb
+Paralelo em OpenMP: OpenMP.ipynb
